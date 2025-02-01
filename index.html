@@ -87,7 +87,9 @@
           pantry <br />
           staples, we’ve got you covered every day!
         </p>
-        <img class="mx-auto" src="images/hero-vegetables.png" alt="" />
+        <div class="animate-pulse">
+            <img class="mx-auto" src="images/hero-vegetables.png" alt="" />
+        </div>
       </div>
     </header>
 
@@ -136,9 +138,47 @@
 
 
       <!-- new section -->
-       <section>
-        
-       </section>
+      <section>
+        <h3 class="text-4xl py-8 text-[#179800]">Healty foods</h3>
+
+        <!-- service card container -->
+        <div class="grid grid-cols-1 md:grid-cols-3 text-center gap-6 h-auto md:h-80">
+          <!-- card 1 -->
+          <div class="bg-[rgb(132,97,27)] rounded-xl">
+            <div class="bg-[#fff] mx-auto my-5 rounded-full w-[100px] h-[100px] p-3">
+                <img src="images/tomatoes.webp" alt="" />
+            </div>
+            <h4 class="font-bold p-3">Tomato</h4>
+            <p class="text-gray-500">
+                Fresh, juicy, and packed with nutrients, our tomatoes are perfect for adding flavor and health benefits to your meals. Grown with care, they bring natural goodness to your table!
+            </p>
+          </div>
+          <!-- card 2 -->
+          <div class="bg-[#2fc0ac] rounded-xl">
+            <div class="bg-[#fff] mx-auto my-5 rounded-full w-[100px] h-[100px] p-3">
+                <img cl src="images/mashroom-1000x1000.webp" alt="" />
+            </div>
+            <h4 class="font-bold p-3">Mashroom</h4>
+            <p class="text-gray-500">
+                Fresh, organic, and rich in nutrients, our mushrooms add a delicious and healthy touch to your meals. Enjoy farm-fresh quality with every bite!
+            </p>
+          </div>
+          <!-- card 3 -->
+          <div class="bg-[#d49e33] rounded-xl">
+            <div class="bg-[#fff] mx-auto my-5 rounded-full w-[100px] h-[100px] p-3">
+                <img src="images/Strawberries__57434.jpg" alt="" />
+            </div>
+            <h4 class="font-bold p-3">Strawberry</h4>
+            <p class="text-gray-500">
+                Sweet, juicy, and packed with vitamins, our fresh strawberries are the perfect choice for a healthy and delicious treat. Enjoy nature’s goodness in every bite!
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+
+
       <!-- popular products section -->
       <section class="bg-[#EFEBE3] my-5">
         <h3 class="text-4xl py-8 text-[#179800]">Popular Products</h3>
@@ -153,7 +193,7 @@
                 Discover a world of treats,toys,and essentials handpicked for
               </p>
               <button class="btn">Buy Now</button>
-              <div><img class=" mx-auto w-full object-cover overflow-hidden" src="images/vegetable-offer.png" alt="" /></div>
+              <div><img class=" mx-auto w-full object-cover overflow-hidden relative ml-4" src="images/vegetable-offer.png" alt="" /></div>
             </div>
           </div>
           <div
@@ -328,8 +368,8 @@
                <div class="py-8">
                 <img src="images/dawat-logo.png" alt="">
                </div>
-                <button class="btn bg-[#63B76D] text-[#fff] border-none w-72 h-10">Cook Exotic Dishes</button>
-            <h2 class="text-2xl text-[#fff] pt-5 ml-4">UP to <span class="font-bold">20% OFF</span></h2>
+                <button class="btn bg-[#63B76D] text-[#fff] border-none lg:w-72 h-10">Cook Exotic Dishes</button>
+            <h2 class="text-2xl text-[#fff] pt-5">UP to <span class="font-bold">20% OFF</span></h2>
             </div>
             <div class="my-5 mx-auto w-full">
                 <img src="images/dawat-mock-up.png" alt="">
@@ -353,16 +393,16 @@
     </main>
 
     <!-- footer section -->
-        <footer class="footer bg-[#179800] p-10 pt-56 relative mt-44">
+        <footer class="footer bg-[#179800] p-10 pt-80 lg:pt-56 relative mt-44">
             <section class="absolute -top-44 lg:left-56 left-7 right-7">
                 <div class=" lg:flex bg-[#EFEBE3] rounded-3xl lg:justify-around">
                     <div>
                         <img src="images/vegetable-busket.png" alt="">
                     </div>
-                    <div>
-                        <h3 class="text-2xl font-bold pt-20">Get Grocery News!</h3>
+                    <div class="text-center lg:text-left">
+                        <h3 class="text-2xl font-bold text-[#179800] lg:text-black lg:pt-20">Get Grocery News!</h3>
                         <p class="py-2">Exclusive training tips, ticks, product deals and more.</p>
-                        <input class="w-72 h-12 rounded p-2 text-gray-500 my-4" type="email" name="" id="" placeholder="Enter Email....">
+                        <input class="w-72 h-12 rounded lg:p-2 text-gray-500 my-2 lg:my-4" type="email" name="" id="" placeholder="Enter Email....">
                         <br>
                         <button class="btn bg-[#179800] text-[#fff]">Subscribe</button>
                     </div>
