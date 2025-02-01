@@ -1,216 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=
     , initial-scale=1.0">
     <title>Nature Platter</title>
     <!-- font icon link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Google Font CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <!-- daisyUI CDN -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 
-<style>
-    .fonts-sora{
-  font-family: "Sora", serif;
-}
-
-</style>
+    <style>
+        .fonts-sora {
+            font-family: "Sora", serif;
+        }
+    </style>
 </head>
+
 <body class="fonts-sora">
     <!-- header section -->
-     <Header>
+    <Header>
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h8m-8 6h16" />
-                      </svg>
-                    </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li><a>Item 1</a></li>
-                      <li>
-                        <a>Parent</a>
-                        <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Item 1</a></li>
+                            <li>
+                                <a>Parent</a>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a>Item 3</a></li>
                         </ul>
-                      </li>
-                      <li><a>Item 3</a></li>
-                    </ul>
-                  </div>
-                  <a class="btn btn-ghost text-xl">daisyUI</a>
+                    </div>
+                    <a class="btn btn-ghost text-xl">daisyUI</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li>
-                      <details>
-                        <summary>Parent</summary>
-                        <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
-                        </ul>
-                      </details>
-                    </li>
-                    <li><a>Item 3</a></li>
-                  </ul>
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Item 1</a></li>
+                        <li>
+                            <details>
+                                <summary>Parent</summary>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li><a>Item 3</a></li>
+                    </ul>
                 </div>
                 <div class="navbar-end">
-                  <a class="btn">Button</a>
+                    <a class="btn">Button</a>
                 </div>
-              </div>
+            </div>
         </nav>
 
         <!-- banner start -->
-         <div class="text-center">
+        <div class="text-center">
             <h1 class="text-6xl">Freshness <span class="text-[#179800]">You Can</span> <br>
-               <span class="text-[#179800]">Count</span> On, Prices You’ll Love!</h1>
-            <p class="my-6">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+                <span class="text-[#179800]">Count</span> On, Prices You’ll Love!
+            </h1>
+            <p class="my-6">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples,
+                we’ve got you covered every day!</p>
             <img src="images/hero-vegetables.png" alt="">
-         </div>
-     </Header>
-
-     <!-- main section -->
-      <main>
-        <!-- service section -->
-         <section>
-            <h3 class="text-4xl uppercase text-[#179800]">Services</h3>
-        
-        <!-- service card container -->
-         <div class="grid grid-cols-1 lg:grid-cols-3 text-center gap-6">
-            <!-- card 1 -->
-             <div class="bg-[#EFEBE3]">
-                <img src="images/service.png" alt="">
-                <h4>24/7 Services</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-             </div>
-             <!-- card 2 -->
-             <div class="bg-[#EFEBE3]">
-                <img src="images/delivery.png" alt="">
-                <h4>Fast Delivery</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-             </div>
-             <!-- card 3 -->
-             <div class="bg-[#EFEBE3]">
-                <img src="images/healthy.png" alt="">
-                <h4>Healthy Products</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-             </div>
-         </div>
-
-         <!-- popular products section -->
-          <section>
-            <h3>Popular Products</h3>
-            <div class="flex">
-                <div class="w-96 bg-gradient-to-r from-violet-500 to-fuchsia-500">
-                    <h3>30% off</h3>
-                    <p>Discover a world of treats,toys,and essentials handpicked for</p>
-                    <button>Buy Now</button>
-                    <img src="images/vegetable-offer.png" alt="">
-                </div>
-            
-                <!-- 9 cards start -->
-                <div class="flex">
-                    <div>
-                        <img src="images/onion.png" alt="">
-                    </div>
-                   <div class="flex-direction-column">
-                    <div class="flex">
-                        <i class="fa-solid fa-star"></i>
-                        <p>4.5</p>
-                    </div>
-                    <div>
-                        <h5>Onion 1 KG</h5>
-                        <p>$39.99</p>
-                    </div>
-                   </div>
-            </div>
-            <!-- card 2 -->
-            <div class="flex">
-                <div>
-                    <img src="images/tomato.png" alt="">
-                </div>
-               <div class="flex-direction-column">
-                <div class="flex">
-                    <i class="fa-solid fa-star"></i>
-                    <p>4.5</p>
-                </div>
-                <div>
-                    <h5>Tomato 500 g </h5>
-                    <p>$39.99</p>
-                </div>
-               </div>
         </div>
-        <!-- card 3 -->
-        <div class="flex">
-            <div>
-                <img src="images/potato.png" alt="">
+    </Header>
+
+    <!-- main section -->
+    <main>
+        <!-- service section -->
+        <section>
+            <h3 class="text-4xl uppercase text-[#179800]">Services</h3>
+
+            <!-- service card container -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 text-center gap-6">
+                <!-- card 1 -->
+                <div class="bg-[#EFEBE3]">
+                    <img src="images/service.png" alt="">
+                    <h4>24/7 Services</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+                <!-- card 2 -->
+                <div class="bg-[#EFEBE3]">
+                    <img src="images/delivery.png" alt="">
+                    <h4>Fast Delivery</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+                <!-- card 3 -->
+                <div class="bg-[#EFEBE3]">
+                    <img src="images/healthy.png" alt="">
+                    <h4>Healthy Products</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
             </div>
-           <div class="flex-direction-column">
-            <div class="flex">
-                <i class="fa-solid fa-star"></i>
-                <p>4.5</p>
-            </div>
-            <div>
-                <h5>Potato 1 KG</h5>
-                <p>$39.99</p>
-            </div>
-           </div>
-    </div>
-    <!-- card 4 -->
-            </div>
-          </section>
-         </section>
+
+            <!-- popular products section -->
+            <section>
+                <h3>Popular Products</h3>
+
+                <!-- nine cards -->
+
+                <div class="grid grid-cols-12 h-52 gap-2">
+                    <div class="col-span-12 md:col-span-3 bg-amber-300">
+                        <div class="w-96 bg-gradient-to-r from-violet-500 to-fuchsia-500">
+                            <h3>30% off</h3>
+                            <p>Discover a world of treats,toys,and essentials handpicked for</p>
+                            <button>Buy Now</button>
+                            <img src="images/vegetable-offer.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-span-12 md:col-span-9 grid grid-cols-3 gap-2">
+                        <div class=" h-24 bg-green-50">
+                            <div class="flex">
+                                <div>
+                                    <img src="images/onion.png" alt="">
+                                </div>
+                                <div class="flex-direction-column">
+                                    <div class="flex">
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>4.5</p>
+                                    </div>
+                                    <div>
+                                        <h5>Onion 1 KG</h5>
+                                        <p>$39.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" h-24 bg-green-50">
+                            <div class="flex">
+                                <div>
+                                    <img src="images/tomato.png" alt="">
+                                </div>
+                                <div class="flex-direction-column">
+                                    <div class="flex">
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>4.5</p>
+                                    </div>
+                                    <div>
+                                        <h5>Tomato 500 g </h5>
+                                        <p>$39.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" h-24 bg-green-50">
+                            <div class="flex">
+                                <div>
+                                    <img src="images/potato.png" alt="">
+                                </div>
+                                <div class="flex-direction-column">
+                                    <div class="flex">
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>4.5</p>
+                                    </div>
+                                    <div>
+                                        <h5>Potato 1 KG</h5>
+                                        <p>$39.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" h-24 bg-green-50">
+                            <div class="flex">
+                                <div>
+                                    <img src="images/tomato.png" alt="">
+                                </div>
+                                <div class="flex-direction-column">
+                                    <div class="flex">
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>4.5</p>
+                                    </div>
+                                    <div>
+                                        <h5>Potato 1 KG</h5>
+                                        <p>$39.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" h-24 bg-green-50">
+                            <div class="flex">
+                                <div>
+                                    <img src="images/onion.png" alt="">
+                                </div>
+                                <div class="flex-direction-column">
+                                    <div class="flex">
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>4.5</p>
+                                    </div>
+                                    <div>
+                                        <h5>Potato 1 KG</h5>
+                                        <p>$39.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" h-24 bg-green-50">
+                            <div class="flex">
+                                <div>
+                                    <img src="images/tomato.png" alt="">
+                                </div>
+                                <div class="flex-direction-column">
+                                    <div class="flex">
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>4.5</p>
+                                    </div>
+                                    <div>
+                                        <h5>Potato 1 KG</h5>
+                                        <p>$39.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" h-24 bg-green-50">
+                            <div class="flex">
+                                <div>
+                                    <img src="images/onion.png" alt="">
+                                </div>
+                                <div class="flex-direction-column">
+                                    <div class="flex">
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>4.5</p>
+                                    </div>
+                                    <div>
+                                        <h5>Onion 1 KG</h5>
+                                        <p>$39.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" h-24 bg-green-50">
+                            <div class="flex">
+                                <div>
+                                    <img src="images/potato.png" alt="">
+                                </div>
+                                <div class="flex-direction-column">
+                                    <div class="flex">
+                                        <i class="fa-solid fa-star"></i>
+                                        <p>4.5</p>
+                                    </div>
+                                    <div>
+                                        <h5>Onion 1 KG</h5>
+                                        <p>$39.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" h-24 bg-green-50">
+                                <div class="flex">
+                                    <div>
+                                        <img src="images/potato.png" alt="">
+                                    </div>
+                                    <div class="flex-direction-column">
+                                        <div class="flex">
+                                            <i class="fa-solid fa-star"></i>
+                                            <p>4.5</p>
+                                        </div>
+                                        <div>
+                                            <h5>Onion 1 KG</h5>
+                                            <p>$39.99</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </section>
 
 
 
 
-
-
-
-
-
-
-         <!-- arrival & offers section  -->
-          <h3>Arrival & Offers</h3>
-         <div class="flex">
-            <div>
-                <img src="images/dawat-logo.png" alt="">
-                <p>The FINEST</p>
-                <button>Cook Exotic Dishes</button>
-                <h3>UP to 20% OFF</h3>
-              </div>
-              <div>
-                <img src="images/dawat-mock-up.png" alt="">
-              </div>
-         </div>
-
-        <!-- another -->
-         <div>
-            <img src="images/" alt="">
-         </div>
-      </main>
-
-      <!-- footer section -->
-       <footer></footer>
+            <!-- footer section -->
+            <footer></footer>
 </body>
+
 </html>
